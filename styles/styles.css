@@ -29,6 +29,7 @@ body {
     background-repeat: no-repeat;
     backgroung-position: top center;
     background-size: cover;
+    height: 100vh;
 }
 
 /* outra forma de declarar o css em um único item short hand (atalho)
@@ -42,7 +43,8 @@ body * {
 }
 
 #container {
-    width: 360px;
+    width: 100%;
+    max-width: 590px;
     margin: 56px auto 0px;
     padding: 0 24px;
 }
@@ -164,4 +166,12 @@ footer a:hover {
     color: #ffce00;
 }
 
+@media (min-width:700px) {
+    :root {
+        --bg-url: url(../assets/bg-desktop.jpg);
+    }
 
+    .light {
+        --bg-url: url(../assets/bg-desktop-light.jpg);
+    }
+}
