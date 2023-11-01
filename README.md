@@ -1,4 +1,7 @@
 # Discover | Agregador de conteúdo
+
+![Agregador de Conteúdo | HTML + CSS + Javascript](image.png)
+
 Este documento tem o objetivo construir um projeto de um agregador de conteúdo do zero, explorando de maneira prática a utilização de ferramentas como HTML, CSS, Javascript, Git e Github. O projeto conta ainda com protótipo do Figma utilizado como referência para a criação das páginas.
 
 ## ✒️ Autores
